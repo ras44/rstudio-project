@@ -1,0 +1,10 @@
+# Please copy this file as config.R and edit it
+
+config <- list(
+  author = "First Last", # add your name here
+  dataset = "my_dataset",  # add your dataset here
+  date_low = "19700101", # the start of analysis YYYYMMDD
+  date_high = "20000101" # the end of analysis YYYYMMDD
+)
+
+my_global_variable <- 42
