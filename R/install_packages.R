@@ -43,6 +43,7 @@ install.packages("blob")
 install.packages("openssl")
 install.packages("keyring")
 install.packages("odbc")
+install.packages("devtools")
 
 
 packrat::snapshot()
