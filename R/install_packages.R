@@ -1,49 +1,55 @@
 # packages installed by anaconda's r-essential install
-install.packages("ggplot2")
-install.packages("plyr")
-install.packages("reshape2")
-install.packages("dplyr")
-install.packages("tidyr")
-install.packages("caret")
-install.packages("randomforest")
-install.packages("data")
-install.packages("quantmod")
-install.packages("shiny")
-install.packages("rmarkdown")
-install.packages("glmnet")
-install.packages("jsonlite")
-install.packages("zoo")
-install.packages("irkernel")
-install.packages("rbokeh")
-install.packages("formatr")
-install.packages("tebook")
-install.packages("tidyverse")
-install.packages("dbi")
-install.packages("broom")
-install.packages("forcats")
-install.packages("haven")
-install.packages("hms")
-install.packages("httr")
-install.packages("lubridate")
-install.packages("magrittr")
-install.packages("modelr")
-install.packages("purrr")
-install.packages("readr")
-install.packages("readxl")
-install.packages("rvest")
-install.packages("stringr")
-install.packages("tibble")
-install.packages("xml2")
+install.packages(c(
+  "ggplot2",
+  "plyr",
+  "reshape2",
+  "dplyr",
+  "tidyr",
+  "caret",
+  "randomforest",
+  "data",
+  "quantmod",
+  "shiny",
+  "rmarkdown",
+  "glmnet",
+  "jsonlite",
+  "zoo",
+  "irkernel",
+  "rbokeh",
+  "formatr",
+  "tebook",
+  "tidyverse",
+  "dbi",
+  "broom",
+  "forcats",
+  "haven",
+  "hms",
+  "httr",
+  "lubridate",
+  "magrittr",
+  "modelr",
+  "purrr",
+  "readr",
+  "readxl",
+  "rvest",
+  "stringr",
+  "tibble",
+  "xml2"
+  )
+)
 
 # additional packages
-install.packages("tinytex")
-install.packages("bit")
-install.packages("bit64")
-install.packages("blob")
-install.packages("openssl")
-install.packages("keyring")
-install.packages("odbc")
-install.packages("devtools")
+install.packages(c(
+  "tinytex",
+  "bit",
+  "bit64",
+  "blob",
+  "openssl",
+  "keyring",
+  "odbc",
+  "devtools"
+  )
+)
 
 
 packrat::snapshot()
