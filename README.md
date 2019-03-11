@@ -30,4 +30,6 @@ Please submit requests for flavor/R-version builds through an [issue](https://gi
 
 
 ## Structure
-`dev-project-empty` contains an empty R projectt
+- `dev-project-empty` contains an empty R project
+- `dev-package-install` contains the files used to install a set of R packages
+- `branch_and_build.sh` will create a branch name based on your system.  It then branches off of `dev-project-empty` and merges in `dev-package-install` before building all libraries for your system.  After building, the files in the base `rstudio-project` folder can be used as a template RStudio project via `cp -r rstudio-project new_r_project`.
