@@ -10,7 +10,7 @@ echo $BRANCH_NAME
 
 git checkout dev-project-empty
 git checkout -b ${BRANCH_NAME}
-git merge --no-edit dev-package-install
+git merge --no-edit origin/dev-package-install
 Rscript R/packrat_init.R
 Rscript R/install_packages.R
 git add -A packrat
