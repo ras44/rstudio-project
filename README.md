@@ -1,5 +1,5 @@
 # rstudio-project
-Template RStudio project with preinstalled libs managed by packrat
+Template RStudio project with preinstalled libs managed by packrat.
 
 ## Introduction
 This repo contains starter RStudio projects for fixed versions of R.  Browse through the [branches](https://github.com/ras44/rstudio-project/branches) and [releases](https://github.com/ras44/rstudio-project/releases) to find one that suits your linux flavor and your version of R.
@@ -8,6 +8,8 @@ Please star this repo if you find it useful.
 
 ## Contribute
 We welcome pull requests for new linux flavors and R versions.
+
+Note: to create a new build we recommend starting with a clean instance based off of [rstudio-instance](https://github.com/ras44/rstudio-instance). Your instance's R installation must have packrat already installed via `install.packages("packrat")`.
 
 To create a build:
 - fork this repo on github
@@ -25,3 +27,7 @@ To create a build:
 ## Requests
 
 Please submit requests for flavor/R-version builds through an [issue](https://github.com/ras44/rstudio-project/issues).
+
+
+## Structure
+`dev-project-empty` contains an empty R projectt
