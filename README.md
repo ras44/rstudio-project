@@ -15,14 +15,11 @@ To create a build:
 - then run:
 
 ```
-./new_branch.sh #create a new branch for your linux flavor and R version`
-Rscript R/install_packages.R
-git add -A .
-git push origin HEAD
+./branch_and_build.sh
 ```
 
 - submit an [issue](https://github.com/ras44/rstudio-project/issues) requesting a new fork for your branch, please include the name of your branch 
-- submit a pull request to merge the branch of your fork to the newly-created branch in our repo
+- once the new branch is approved, submit a pull request to merge the branch of your fork to the newly-created branch in rstudio-project 
 
 
 ## Requests
