@@ -14,7 +14,6 @@ install.packages(c(
   "zoo",
   "rbokeh",
   "tidyverse",
-  "dbi",
   "broom",
   "forcats",
   "haven",
