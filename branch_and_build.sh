@@ -10,7 +10,7 @@ echo $BRANCH_NAME
 
 git checkout dev-project-empty
 git checkout -b ${BRANCH_NAME}
-git merge --no-edit origin/dev-package-install
+git merge -X theirs --no-edit origin/dev-package-install
 Rscript R/renv_init.R
 Rscript R/install_packages.R
 git add -A renv
