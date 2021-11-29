@@ -11,7 +11,7 @@ echo $BRANCH_NAME
 git checkout dev-project-empty
 git checkout -b ${BRANCH_NAME}
 git merge --no-edit origin/dev-package-install
-Rscript R/packrat_init.R
+Rscript R/renv_init.R
 Rscript R/install_packages.R
-git add -A packrat
-git commit -m "packrat build: ${BRANCH_NAME}"
+git add -A renv
+git commit -m "renv build: ${BRANCH_NAME}"
