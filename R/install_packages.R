@@ -13,7 +13,6 @@ install.packages(c(
   "jsonlite",
   "zoo",
   "rbokeh",
-  "formatr",
   "tebook",
   "tidyverse",
   "dbi",
