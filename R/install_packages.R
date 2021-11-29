@@ -13,7 +13,6 @@ install.packages(c(
   "jsonlite",
   "zoo",
   "rbokeh",
-  "tebook",
   "tidyverse",
   "dbi",
   "broom",
