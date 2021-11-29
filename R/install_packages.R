@@ -6,7 +6,6 @@ install.packages(c(
   "dplyr",
   "tidyr",
   "caret",
-  "randomforest",
   "data",
   "quantmod",
   "shiny",
