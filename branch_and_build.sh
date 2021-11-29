@@ -8,6 +8,11 @@ BRANCH_NAME=dev-linux-${LINUX_FLAVOR}${VERSION_ID}-R$R_VERSION
 
 echo $BRANCH_NAME
 
+rm -rf renv
+rm .Rprofile
+rm renv.lock
+
+git fetch
 git checkout dev-project-empty
 git checkout -b ${BRANCH_NAME}
 git merge -X theirs --no-edit origin/dev-package-install
