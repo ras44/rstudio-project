@@ -12,7 +12,6 @@ install.packages(c(
   "glmnet",
   "jsonlite",
   "zoo",
-  "irkernel",
   "rbokeh",
   "formatr",
   "tebook",
