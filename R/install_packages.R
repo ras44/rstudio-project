@@ -52,4 +52,4 @@ install.packages(c(
 )
 
 
-packrat::snapshot()
+renv::snapshot()
