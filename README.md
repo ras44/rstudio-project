@@ -1,5 +1,5 @@
 # rstudio-project
-Template RStudio project with preinstalled libs managed by packrat.
+Template RStudio project with preinstalled libs managed by renv.
 
 ## Introduction
 This repo contains starter RStudio projects for fixed versions of R.  Browse through the [branches](https://github.com/ras44/rstudio-project/branches) and [releases](https://github.com/ras44/rstudio-project/releases) to find one that suits your linux flavor and your version of R.
@@ -9,11 +9,10 @@ Please star this repo if you find it useful.
 ## Contribute
 We welcome pull requests for new linux flavors and R versions.
 
-Note: to create a new build we recommend starting with a clean instance based off of [rstudio-instance](https://github.com/ras44/rstudio-instance). Your instance's R installation must have packrat already installed via `install.packages("packrat")`.
+Note: to create a new build we recommend starting with a clean instance based off of [rstudio-instance](https://github.com/ras44/rstudio-instance). Your instance's R installation must have renv already installed via `install.packages("renv")`.
 
 To create a build:
-- fork this repo on github
-- clone your fork locally
+- use this template on github
 - then run:
 
 ```
