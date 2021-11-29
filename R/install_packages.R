@@ -37,8 +37,6 @@ install.packages(c(
   "bit",
   "bit64",
   "blob",
-  "openssl",
-  "keyring",
   "odbc",
   "devtools"
   )
