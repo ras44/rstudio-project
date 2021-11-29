@@ -11,6 +11,7 @@ echo $BRANCH_NAME
 rm -rf renv
 rm .Rprofile
 rm renv.lock
+git branch -D ${BRANCH_NAME}
 
 git fetch
 git checkout dev-project-empty
