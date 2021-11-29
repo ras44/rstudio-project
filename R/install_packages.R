@@ -37,7 +37,6 @@ install.packages(c(
   "bit",
   "bit64",
   "blob",
-  "odbc",
   "devtools"
   )
 )
