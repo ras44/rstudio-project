@@ -1,4 +1,3 @@
-# packages installed by anaconda's r-essential install
 install.packages(c(
   "ggplot2",
   "plyr",
